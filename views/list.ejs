@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="box" id="heading">
-      <h1><%= qualDia %></h1> 
+      <h1><%= qualDia %></h1>
     </div>
     <div class="box">
       <% for (var i = 0; i < novoItem.length; i++) { %>
@@ -18,7 +18,12 @@
       </div>
       <% } %>
       <form class="item" action="/" method="post">
-        <input type="text" name="adicionar" placeholder="Novo item" autocomplete="off"/>
+        <input
+          type="text"
+          name="adicionar"
+          placeholder="Novo item"
+          autocomplete="off"
+        />
         <button type="submit">+</button>
       </form>
     </div>
